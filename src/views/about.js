@@ -6,7 +6,13 @@ import Pokemania from '../img/Pokemania.png'
 import pincelBook from '../img/pincelBook.png'
 import TheCakeHouse from '../img/TheCakeHouse.png'
 import hotieHoo from '../img/hotieHoo.png'
-
+import css from '../img/css.jpeg'
+import html from '../img/html.jpeg'
+import js from '../img/js.jpg';
+import react from '../img/react.jpg'
+import node from '../img/node.jpg'
+import fire from '../img/fire.jpg'
+import git from '../img/git.jpg'
 
 export const AboutPage = () => {
   return (
@@ -15,7 +21,14 @@ export const AboutPage = () => {
         
         <div className="front">
           <h1>Skills Front-End</h1>
-          <img className='skillFront' src={OnlySkill} alt="skills" />
+          
+          <img className='skill' src={html} alt="skills" />
+          <img className='skill' src={css} alt="skills" />
+          <img className='skill' src={js} alt="skills" />
+          <img className='skill' src={react} alt="skills" />
+          <img className='skill' src={node} alt="skills" />
+          <img className='skills' src={git} alt="skills" />
+          <img className='skills' src={fire} alt="skills" />
           <h1>Soft Skills</h1>
         </div>
 

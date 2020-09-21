@@ -83,9 +83,28 @@ code {
 
 h1{
   color: black; 
-  background-color: #fc9b92;
-  display: inline-block;
+  
 }
+
+.skill{
+  margin-top: 5%;
+  /* display: flex; */
+  flex-wrap: wrap;
+  min-width: 130px;
+  justify-content: space-evenly;
+  margin-bottom: 5%;
+}
+
+.skills{
+  margin-top: 5%;
+  /* display: flex; */
+  flex-wrap: wrap;
+  min-width: 130px;
+  justify-content: space-evenly;
+  margin-bottom: 5%;
+}
+
+
 
 
 ul{
@@ -101,7 +120,7 @@ ul{
 }
 
 .ariel{
-  width: 284px;
+  width: 300px;
   border-radius: 5%;
 }
 
@@ -112,15 +131,15 @@ ul{
 }
 
 .pincelbook{
-  width: 343px;;
+  width: 300px;;
   border-radius: 5%;
 }
 .thecakehouse{
-  width: 400px;
+  width: 300px;
   border-radius: 5%;
 }
 .hotiehoo{
-  width: 309px;
+  width: 300px;
   border-radius: 5%;
   margin-top: 10%;
 }
